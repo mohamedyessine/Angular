@@ -1,0 +1,39 @@
+{
+  "posts": [
+    {
+      "id": 3,
+      "name": "akram",
+      "class": "4eme",
+      "email": "akram@gmail.com",
+      "mobile": "4654896749"
+    },
+    {
+      "id": 5,
+      "name": "fgrhy",
+      "class": "grgtzs",
+      "email": "rgrs",
+      "mobile": "41654"
+    },
+    {
+      "id": 6,
+      "name": "akrammm",
+      "class": "2er annee",
+      "email": "akram@gmail.com",
+      "mobile": "4665543659"
+    },
+    {
+      "id": 7,
+      "name": "",
+      "class": "",
+      "email": "",
+      "mobile": ""
+    }
+  ],
+  "comments": [
+    {
+      "id": 2,
+      "title": "json",
+      "author": "ahlem"
+    }
+  ]
+}
