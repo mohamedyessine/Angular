@@ -5,7 +5,7 @@ import { StudentModel } from './student.model';
 
 
 @Component({
-  selector: 'app-student',
+  selector: 'app-student', 
   templateUrl: './student.component.html',
   styleUrls: ['./student.component.css']
 })
@@ -46,8 +46,7 @@ export class StudentComponent implements OnInit {
         console.log("Student record added!")
         alert("Student record added!")
         this.AllStudent();
-        this.studentValue.reset();
-
+        //this.studentValue.reset();
       }
     })
   }

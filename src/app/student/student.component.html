@@ -1,10 +1,8 @@
-<div class="container">
+<div class="container-fluid">
     <nav class="navbar navbar-expand-lg navbar-light bg-primary">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Student Dashboard</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+          
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             
             <div class="d-flex">
@@ -49,7 +47,6 @@
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="staticBackdropLabel">Student Registration</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
         <form [formGroup]="studentValue">
@@ -76,8 +73,8 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Close</button>
-        <button type="button" *ngIf="btnSaveShow" class="btn btn-warning" (click)="AddStudent()">Register</button>
-        <button type="button" *ngIf="btnUpdateShow" class="btn btn-warning" (click)="UpdateStudent()">Update</button>
+        <button type="button" *ngIf="btnSaveShow" class="btn btn-primary" data-bs-dismiss="modal" (click)="AddStudent()">Register</button>
+        <button type="button" *ngIf="btnUpdateShow" class="btn btn-primary" data-bs-dismiss="modal" (click)="UpdateStudent()">Update</button>
 
       </div>
     </div>

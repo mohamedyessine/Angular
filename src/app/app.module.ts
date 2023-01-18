@@ -8,7 +8,7 @@ import { AppComponent } from './app.component';
 import { StudentComponent } from './student/student.component';
 
 @NgModule({
-  declarations: [
+  declarations: [ 
     AppComponent,
     StudentComponent
   ],
